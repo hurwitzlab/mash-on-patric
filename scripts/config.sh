@@ -99,3 +99,4 @@ function get_lines() {
 
   awk "NR==$START,NR==$(($START + $STEP - 1))" $FILE > $OUT_FILE
 }
+MASHSING=/rsgrps/bhurwitz/hurwitzlab/bin/mash-2.0.0.img
